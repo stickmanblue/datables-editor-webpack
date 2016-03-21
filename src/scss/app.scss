@@ -1,0 +1,26 @@
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+@import '~datatables/media/css/jquery.dataTables.css';
+@import '~datatables.net-bs/css/dataTables.bootstrap.css';
+
+@import '../../lib/Editor-1.5.5/css/scss/mixins.scss';
+@import '../../lib/Editor-1.5.5/css/scss/datatable.scss';
+@import '../../lib/Editor-1.5.5/css/scss/bubble.scss';
+@import '../../lib/Editor-1.5.5/css/scss/datetime.scss';
+@import '../../lib/Editor-1.5.5/css/scss/envelope.scss';
+@import '../../lib/Editor-1.5.5/css/scss/fields.scss';
+@import '../../lib/Editor-1.5.5/css/scss/lightbox.scss';
+@import '../../lib/Editor-1.5.5/css/scss/main.scss';
+@import '../../lib/Editor-1.5.5/css/scss/upload.scss';
+
+td.details-control {
+    background: url('https://editor.datatables.net/examples/resources/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('https://editor.datatables.net/examples/resources/details_close.png') no-repeat center center;
+}
+td.DTE_EditorDetails:hover {
+    background-color: white !important;
+}

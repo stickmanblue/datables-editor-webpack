@@ -1,0 +1,4 @@
+{
+  // see https://github.com/babel/babel.github.io/blob/5.0.0/docs/usage/experimental.md
+  "stage": 2
+}
